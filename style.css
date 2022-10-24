@@ -1,0 +1,102 @@
+/* ---- Imports ---- */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* ---- General configs ---- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* ---- Main CSS ---- */
+
+main{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://img.freepik.com/free-vector/clean-medical-background_53876-116875.jpg?w=2000);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: #ACE5DF;
+  width: 400px;
+  height: 600px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.299);
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  color: white;
+  border-bottom: solid 2px white;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.input {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input input {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border:none;
+  outline: 0;
+  text-align: center;
+}
+
+
+button{
+  width: 300px;
+  height: 40px;
+  background-color: #5AD0C3;
+  color: white;
+  outline: none;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: 800;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.result{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.506);
+  background-color: white;
+  color: #5AD0C3;
+  padding: 20px;
+  box-sizing: border-box;
+  user-select: none;
+}
